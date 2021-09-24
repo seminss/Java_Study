@@ -1,6 +1,6 @@
 package day4;
 
-//Circle 클래스를 통해 인스턴스 3개를 만들어 그 원의 중심점과 반지름을 출력
+//        Circle 클래스를 통해 인스턴스 3개를 만들어 그 원의 중심점과 반지름을 출력
 //        한다. 그리고 a원에 대해 b와 c의 원과 비교하는데 그 원의 중심이 같으면 같은
 //        원이고 중심이 다르면 다른 원이다.
 //        Circle 클래스를 인스턴스 할 때 주어진 Ex4 클래스와 같이 각각 다른 3개의 생
@@ -45,9 +45,10 @@ class Circle{
         this.y=y;
         this.r=r;
     }
-    public String toString(){
-        return "Circle("+x+","+y+") 반지름"+r;
-    }
+//    public String toString(){
+//        return "Circle("+x+","+y+") 반지름"+r;
+//    }
+
     public boolean equals(Circle b){
         if(x==b.x&& y==b.y)
             return true;
