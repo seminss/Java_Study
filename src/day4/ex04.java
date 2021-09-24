@@ -7,7 +7,7 @@ package day4;
 //        성자를 구현해야 한다. 생성자에 대해 중심점의 값이 없으면 (0, 0)으로 초기화
 //        하고, 반지름이 없으면 반지름을 5로 초기화한다. 이 때 키워드 this를 사용한다.
 
-public class exx04 {
+public class ex04 {
     public static void main(String[] args){
         Circle a = new Circle(2,3,30);
         Circle b = new Circle(5);
