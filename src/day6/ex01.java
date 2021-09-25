@@ -1,13 +1,13 @@
 package day6;
-//Point를 상속받아 색을 가진 점을 나타내는 ColorPoint 클래스를 작성하라.
+//        Point를 상속받아 색을 가진 점을 나타내는 ColorPoint 클래스를 작성하라.
 //        다음 Ex1 클래스에서 main() 메소드를 포함하여 실행 결과와 같이 출력되게 하라.
 
 class Point{
     private int x,y;
 
     public Point(int x, int y) {
-        this.x=x;
-        this.y=y;
+        this.x = x;
+        this.y = y;
     }
     public int getX() {return x;}
     public int getY() {return y;}
