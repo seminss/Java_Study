@@ -3,7 +3,7 @@ package day10;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class ex03_3 {
+public class ex03_1 {
     public static void main(String[] args) {
         TreeSet<Integer> set = new TreeSet<Integer>();
         SortedSet subset;
@@ -24,6 +24,3 @@ public class ex03_3 {
         System.out.println("85점 이상의 점수 : "+set.tailSet(85));
     }
 }
-//class Integer implements Comparable<Integer>{
-//
-//        }
