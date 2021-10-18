@@ -27,7 +27,7 @@ public class ex01_1 {
         }
 ;    }
 }
-public class Person implements Comparable<Person>{
+class Person implements Comparable<Person>{
     String name;
     int age;
 
